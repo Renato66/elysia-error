@@ -1,6 +1,6 @@
 import type Elysia from "elysia";
 
-const list = (app: Elysia) => app.get("/", () => {
+const list = (app: Elysia) => app.get("", () => {
   return {
     items: [{id: 1, name: "Elysia"}],
     total: 1
